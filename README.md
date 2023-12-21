@@ -1,1 +1,2 @@
-Boilerplate for other project, do not change.
+- Boilerplate for general purpose, do not change.
+- Fork this repo if you want to use it.
