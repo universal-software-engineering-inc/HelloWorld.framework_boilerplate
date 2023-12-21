@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		5D21A0B32B343D13008EE73B /* CCanPassThru.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D21A0B22B343D13008EE73B /* CCanPassThru.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D21A0BB2B343DE8008EE73B /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D21A0B92B343DE8008EE73B /* HelloWorld.m */; };
+		5D21A0BC2B343DE8008EE73B /* HelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D21A0BA2B343DE8008EE73B /* HelloWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D21A0AF2B343D13008EE73B /* CCanPassThru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCanPassThru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D21A0B22B343D13008EE73B /* CCanPassThru.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCanPassThru.h; sourceTree = "<group>"; };
+		5D21A0B92B343DE8008EE73B /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = "<group>"; };
+		5D21A0BA2B343DE8008EE73B /* HelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,8 @@
 		5D21A0B12B343D13008EE73B /* CCanPassThru */ = {
 			isa = PBXGroup;
 			children = (
+				5D21A0BA2B343DE8008EE73B /* HelloWorld.h */,
+				5D21A0B92B343DE8008EE73B /* HelloWorld.m */,
 				5D21A0B22B343D13008EE73B /* CCanPassThru.h */,
 			);
 			path = CCanPassThru;
@@ -57,6 +63,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D21A0BC2B343DE8008EE73B /* HelloWorld.h in Headers */,
 				5D21A0B32B343D13008EE73B /* CCanPassThru.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D21A0BB2B343DE8008EE73B /* HelloWorld.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
