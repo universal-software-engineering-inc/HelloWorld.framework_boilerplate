@@ -14,7 +14,23 @@
 		5D21A0D62B343ED4008EE73B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D21A0D52B343ED4008EE73B /* Assets.xcassets */; };
 		5D21A0D92B343ED4008EE73B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D21A0D72B343ED4008EE73B /* LaunchScreen.storyboard */; };
 		5D21A0DC2B343ED4008EE73B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D21A0DB2B343ED4008EE73B /* main.m */; };
+		5D21A0E42B344CE8008EE73B /* CCanPassThru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D21A0E32B344CE8008EE73B /* CCanPassThru.framework */; };
+		5D21A0E52B344CE8008EE73B /* CCanPassThru.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5D21A0E32B344CE8008EE73B /* CCanPassThru.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D21A0E62B344CE8008EE73B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5D21A0E52B344CE8008EE73B /* CCanPassThru.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5D21A0C62B343ED3008EE73B /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +45,7 @@
 		5D21A0D82B343ED4008EE73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D21A0DA2B343ED4008EE73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D21A0DB2B343ED4008EE73B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D21A0E32B344CE8008EE73B /* CCanPassThru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CCanPassThru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D21A0E42B344CE8008EE73B /* CCanPassThru.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +65,7 @@
 			children = (
 				5D21A0C82B343ED3008EE73B /* Demo */,
 				5D21A0C72B343ED3008EE73B /* Products */,
+				5D21A0E22B344CE8008EE73B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +95,14 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		5D21A0E22B344CE8008EE73B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D21A0E32B344CE8008EE73B /* CCanPassThru.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,6 +113,7 @@
 				5D21A0C22B343ED3008EE73B /* Sources */,
 				5D21A0C32B343ED3008EE73B /* Frameworks */,
 				5D21A0C42B343ED3008EE73B /* Resources */,
+				5D21A0E62B344CE8008EE73B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,7 +334,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +362,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

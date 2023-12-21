@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "CCanPassThru/HelloWorld.h"
 
 @interface ViewController ()
 
@@ -15,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    HelloWorld *helloWorld = [[HelloWorld alloc] init];
+    [helloWorld printHelloWorld];
 }
 
 
